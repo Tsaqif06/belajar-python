@@ -1,0 +1,30 @@
+# normal arrow
+print("    *")
+print("   * *")
+print("  *   *")
+print(" *     *")
+print("***   ***")
+print("  *   *")
+print("  *   *")
+print("  *****")
+
+# make bigger arrow
+print("     *        ")
+print("    * *       ")
+print("   *"," *       ", sep=2*" ")
+print("  *","   *      ", sep=2*" ")
+print(" * ","    *     ", sep=2*" ")
+print("***","   ***    ", sep=2*" ")
+print("  *","   *     ", sep=2*" ")
+print("  *","   *     ", sep=2*" ")
+print("  **","***   ", sep=2*"*")
+
+# duplicate arrow
+print(2*"    *      ")
+print(2*"   * *     ")
+print(2*"  *   *    ")
+print(2*" *     *   ")
+print(2*"***   ***  ")
+print(2*"  *   *    ")
+print(2*"  *   *    ")
+print(2*"  *****    ")
