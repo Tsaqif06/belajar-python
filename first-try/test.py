@@ -1,10 +1,8 @@
-print("Hello, World!")
+# print("Hello, World!")
 
-test = input()
-
-if test == "Spathiphyllum" : 
-    print("Yes - Spathiphyllum is the best plant ever!")
-elif test == "spathiphyllum" :
-    print("No, I want a big Spathiphyllum!")
-else:
-    print("Spathiphyllum! Not ", test, "!")
+def fun(x):
+    if x % 2 == 0:
+       return 1
+    else:
+       return 2
+print(fun(fun(2)))
