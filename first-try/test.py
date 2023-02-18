@@ -1,8 +1,11 @@
 # print("Hello, World!")
 
-def fun(x):
-    if x % 2 == 0:
-       return 1
-    else:
-       return 2
-print(fun(fun(2)))
+from platform import platform, machine, processor
+
+print(platform())
+print(platform(1))
+print(platform(0, 1))
+
+print(machine())
+
+print(processor())
